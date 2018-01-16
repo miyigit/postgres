@@ -1,7 +1,8 @@
 <h1>Postgres</h1>
+<%= link_to "Home Page", root_path %>
 <%= simple_form_for @post do |form| %>
   <%= form.input :title, label: "Название объявления" %>
-  <%= form.input :title, label: "Текст объявления   " %>
+  <%= form.input :title, label: "Текст объявления" %>
   <%= form.button :submit %>
-  <%= link_to "Home Page", root_path %>
+  
 <% end %>
